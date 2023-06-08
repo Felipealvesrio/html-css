@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'morpheus' ;
+    src: url('../fontes/MORPHEUS.TTF') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --cor0:#012340;
+    --cor1:#024873;
+    --cor2:#03658C;
+    --cor3:#04BFBF;
+    --cor4:#ADC5D9;
+    --cor5:white;
+    --cor6:black;
+    --fonte-padrão: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'morpheus', cursive; 
+    --fonte-bebas: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #adc5d9;
+    font-family: var(--fonte-padrão);
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    color: var(--cor5);
+    min-height: 180px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+header > p{
+    font-family: var(--fonte-padrão);
+    font-size: 1.5em;
+    color: var(--cor5);
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+nav{
+    background-color: var(--cor0);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+    padding: 10px;
+}
+
+nav > a{
+    color: var(--cor5);
+    border-radius: 5px;
+    padding: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+}
+
+main{
+    background-color: var(--cor5);
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main img.menbros{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    padding-right: 20px;
+}
+
+main h1{
+    font-family: var(--fonte-padrão);
+    color: var(--cor1);
+}
+
+main h2{
+    font-family: var(--fonte-padrão);
+    color: var(--cor6);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-indent: 8px;
+    margin-top: 20px;
+}
+
+div.video{
+    background-color: var(--cor2);
+    margin: 0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul{
+    background-color: var(--cor5);
+    margin-left: 255px;
+    margin-right: 254px;
+    padding: 10px;
+    min-width: 280px;
+    max-width: 820px;
+    display: block;
+    margin: auto;
+}
+
+ul a{
+    color: var(--cor6);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: var(--cor5);
+    text-align: center;
+    padding: 5px;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas 
+            cm, mm, in(polegadas), px, pt, pc.
+
+            Medidas relativas
+            em, ex, rem, vw(largura), vh(altura), %.
+            16px geralmente = 1em
+            utilizar(px e em)
+        */
+            font-size: 1.1em;
+
+            /* lighter, normal, bold, bolder */
+        }
+        h1{
+        /*shoorthand font
+        - font-style--> font-weight--> font-size--> font-family
+
+        font-family: 'work sans', 'sans-serif';
+        font-weight: bolder
+        font-size: 3em
+        font-style: italic
+        */
+        font:italic bolder 3em 'work sans' sans-serif;
+        }
+
+        h2{
+            font:bold 2em 'work sans';
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>trabalhando com tipos de fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Perspiciatis reiciendis assumenda adipisci dolore mollitia sed expedita nam, 
+        beatae officia accusamus, illum quis? Aut possimus facere eius error, quae porro totam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Necessitatibus dolores voluptas molestias, veritatis minima nobis, 
+        voluptate magnam accusantium explicabo hic sit error! Consectetur nemo 
+        voluptatum numquam, blanditiis quidem possimus. Perferendis.
+    </p>
+        
+        <h2>sub-título</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nemo dolor minus molestias inventore totam distinctio
+            repellat vel velit? Ratione, mollitia. Perferendis, 
+            nesciunt quibusdam? Libero molestias, fugiat ipsa aliquam eius totam. 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Rem quasi error nostrum ipsam sunt labore voluptas expedita
+            corrupti eaque dicta quisquam repellat eum quibusdam 
+            cupiditate eius praesentium, possimus numquam voluptatum!</p>
+</body>
+</html>
