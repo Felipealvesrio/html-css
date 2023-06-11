@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#012340;
+    --cor1:#024873;
+    --cor2:#03658C;
+    --cor3:#04BFBF;
+    --cor4:#ADC5D9;
+    --cor5:white;
+    --cor6:black;
+    --fonte-padrão: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'morpheus', cursive; 
+    --fonte-bebas: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(imagens/Pastor\ frente1500.jpg);
+    width: 1500px;
+    height: 720px;
+}
+
+body{
+    background-color: #ADC5D9;
+}
+
+footer{
+    background-color: #04BFBF;
+}
+
+div.menu{
+    margin-top: 0px;
+    width: 1000px;
+}
+
+nav{
+    font-size: 1.5em;
+    line-height: 1em;
+    border: 10px;
+}       
+
+ul{
+    margin-top: -110px;
+    margin-left: 600px;
+    padding-left: 0px;
+    width: 800px;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 10px;
+    color: var(--cor5);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+a>img{
+    margin-top: 15px;
+}
+
+ul > a:hover{
+    background-color: var(--cor6);
+}
