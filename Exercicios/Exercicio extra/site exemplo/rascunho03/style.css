@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'morpheus' ;
+    src: url('../fontes/MORPHEUS.TTF') format('truetype');
+    font-weight: normal;
+    font-family: 'cretino';
+    src: url('fonte/Cretino.otf') format('opentype');
+    font-weight: normal;
+}
+
 :root{
     --cor0:#012340;
     --cor1:#024873;
@@ -10,7 +19,7 @@
     --cor6:black;
     --fonte-padrão: Arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'morpheus', cursive; 
-    --fonte-bebas: 'Bebas Neue', cursive;
+    --fonte-cretino: 'cretino', cursive;
 }
 
 * {
@@ -20,8 +29,10 @@
 
 header{
     background-image: url(imagens/Pastor\ frente1500.jpg);
-    width: 1500px;
+    width: 100%;
     height: 720px;
+    margin-top: -20px;
+
 }
 
 body{
@@ -32,23 +43,24 @@ footer{
     background-color: #04BFBF;
 }
 
-div.menu{
-    margin-top: 0px;
-    width: 1000px;
-}
-
 nav{
     font-size: 1.5em;
     line-height: 1em;
     border: 10px;
+    padding-top: 0px;
 }       
 
 ul{
-    margin-top: -110px;
-    margin-left: 600px;
-    padding-left: 0px;
-    width: 800px;
+    margin-top: -30px;
+    margin-left: 680px;
+}
 
+h1{
+    font-family: var(--fonte-cretino);
+    padding-top: 40px;
+    padding-left: 20px;
+    color: var(--cor5);
+    font-size: 3em;
 }
 
 a{
