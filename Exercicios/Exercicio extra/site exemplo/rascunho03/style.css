@@ -18,7 +18,7 @@
     --cor5:white;
     --cor6:black;
     --fonte-padrão: Arial, verdana, helvetica, sans-serif;
-    --fonte-destaque: 'morpheus', cursive; 
+    --fonte-morpheus: 'morpheus', cursive; 
     --fonte-cretino: 'cretino', cursive;
 }
 
@@ -35,10 +35,6 @@ header{
 
 }
 
-body{
-    background-color: #ADC5D9;
-}
-
 footer{
     background-color: #04BFBF;
 }
@@ -51,16 +47,51 @@ nav{
 }       
 
 ul{
-    margin-top: -30px;
+    margin-top: -70px;
     margin-left: 680px;
 }
 
+a>h1{
+    background-color: var(--cor6);
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
 h1{
-    font-family: var(--fonte-cretino);
-    padding-top: 40px;
+    font-family: var(--fonte-morpheus);
     padding-left: 20px;
     color: var(--cor5);
-    font-size: 3em;
+    font-size: 2.5em;
+    width: 283px;
+    height: 50px;
+    line-height: 45px;
+}
+
+h2{
+    color: var(--cor6);
+    margin-top: 150px;
+    margin-left: 1000px;
+    width: 250px;
+    height: 200px;;
+    font-size: 2.5rem;
+}
+
+button{
+    margin-left: 1030px;
+    margin-top: 40px;
+    padding: 5px;
+    width: 180px;
+    font-size: 1em;
+    color: var(--cor5);
+    background-color: #024873;
+}
+
+p.nom{
+    font-family: var(--fonte-cretino);
+    margin-top: -51px;
+    margin-left: 200px;
+    font-size: 1.3em;
 }
 
 a{
@@ -78,4 +109,33 @@ a>img{
 
 ul > a:hover{
     background-color: var(--cor6);
+}
+
+div.texto{
+    background-color: var(--cor5);
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 1.7em;
+    color: #024873;
+}
+
+main > p{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+div.quadrado{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:lightgray ;
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: -70px;
+    margin-left: 50px;
+    padding: 10px;
 }
