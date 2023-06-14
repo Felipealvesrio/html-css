@@ -48,7 +48,7 @@ nav{
 
 ul{
     margin-top: -70px;
-    margin-left: 680px;
+    margin-left: 550px;
 }
 
 a>h1{
@@ -87,6 +87,10 @@ button{
     background-color: #024873;
 }
 
+p{
+    margin-bottom: 40px;
+}
+
 p.nom{
     font-family: var(--fonte-cretino);
     margin-top: -51px;
@@ -117,7 +121,7 @@ div.texto{
     margin-top: 50px;
 }
 
-h3{
+main > h3{
     font-size: 1.7em;
     color: #024873;
 }
@@ -131,11 +135,54 @@ div.quadrado{
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    background-color:lightgray ;
     width: 350px;
     height: 350px;
-    margin-top: 100px;
-    margin-bottom: -70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     margin-left: 50px;
-    padding: 10px;
+}
+
+div.quadrado#Q1{
+    background-image: url(imagens/biblia.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+
+div.quadrado#Q2{
+    background-image: url(imagens/voluntário-de-tecnologia-da-igreja.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+
+div.quadrado#Q3{
+    background-image: url(imagens/oração.jpg);
+    background-repeat: no-repeat;
+    background-size: 350PX 350PX;
+}
+
+div.quadrado#Q4{
+    background-image: url(imagens/louvor.jpg);
+    background-repeat: no-repeat;
+    background-size: 350PX 350PX;
+}
+
+div.quadrado#Q5{
+    background-image: url(imagens/membros.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+
+div#Q5 > a{
+    color: var(--cor5);
+    background-color: var(--cor6);
+}
+
+div.quadrado#Q6{
+    background-image: url(imagens/manutenção.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+div#Q6 > a{
+    color: var(--cor6);
+    background-color: var(--cor5);
 }
