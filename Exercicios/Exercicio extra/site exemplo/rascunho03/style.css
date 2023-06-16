@@ -29,10 +29,12 @@
 
 header{
     background-image: url(imagens/Pastor\ frente1500.jpg);
-    width: 100%;
     height: 720px;
     margin-top: -20px;
-
+    min-width: 180px;
+    max-width: 100%;
+    margin: 10px;
+    background-position: center top;
 }
 
 footer{
@@ -43,17 +45,14 @@ nav{
     font-size: 1.5em;
     line-height: 1em;
     border: 10px;
-    padding-top: 0px;
+    margin-top: 0px;
+    max-width: 800px;
+    min-width: 180px;
 }       
-
-ul{
-    margin-top: -70px;
-    margin-left: 550px;
-}
 
 a>h1{
     background-color: var(--cor6);
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 20px;
     padding: 0px;
 }
@@ -70,16 +69,18 @@ h1{
 
 h2{
     color: var(--cor6);
-    margin-top: 150px;
-    margin-left: 1000px;
+    margin-top: 200px;
+    margin-left: 40px;
     width: 250px;
     height: 200px;;
     font-size: 2.5rem;
+    max-width: 180px;
+    margin-right: 10px;
 }
 
 button{
-    margin-left: 1030px;
-    margin-top: 40px;
+    margin-left: 50px;
+    margin-top: 100px;
     padding: 5px;
     width: 180px;
     font-size: 1em;
@@ -100,18 +101,20 @@ p.nom{
 
 a{
     text-decoration: none;
-    padding: 8px;
+    padding: 2px;
     margin-left: 10px;
     color: var(--cor5);
     font-weight: bold;
     transition-duration: 0.5s;
+    min-width: 280px;
+    max-width: 800px;
 }
 
 a>img{
     margin-top: 15px;
 }
 
-ul > a:hover{
+nav > a:hover{
     background-color: var(--cor6);
 }
 
@@ -140,36 +143,47 @@ div.quadrado{
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 50px;
+    min-width: 180px;
 }
 
 div.quadrado#Q1{
     background-image: url(imagens/biblia.jpg);
     background-repeat: no-repeat;
     background-size: 350px 350px;
+    min-width: 180px;
+    margin: center;
 }
 
 div.quadrado#Q2{
     background-image: url(imagens/voluntário-de-tecnologia-da-igreja.jpg);
     background-repeat: no-repeat;
     background-size: 350px 350px;
+    min-width: 180px;
+    margin: center;
 }
 
 div.quadrado#Q3{
     background-image: url(imagens/oração.jpg);
     background-repeat: no-repeat;
     background-size: 350PX 350PX;
+    min-width: 180px;
+    margin: center;
 }
 
 div.quadrado#Q4{
     background-image: url(imagens/louvor.jpg);
     background-repeat: no-repeat;
     background-size: 350PX 350PX;
+    min-width: 180px;
+    margin: center;
 }
 
 div.quadrado#Q5{
     background-image: url(imagens/membros.jpg);
     background-repeat: no-repeat;
     background-size: 350px 350px;
+    min-width: 180px;
+    margin: center;
 }
 
 div#Q5 > a{
@@ -181,6 +195,8 @@ div.quadrado#Q6{
     background-image: url(imagens/manutenção.jpg);
     background-repeat: no-repeat;
     background-size: 350px 350px;
+    min-width: 180px;
+    margin: center;
 }
 div#Q6 > a{
     color: var(--cor6);
