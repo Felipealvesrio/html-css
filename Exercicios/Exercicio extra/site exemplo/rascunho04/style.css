@@ -22,70 +22,67 @@
     --fonte-cretino: 'cretino', cursive;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-header{
-    background-image: url(imagens/Pastor\ frente1500.jpg);
-    height: 720px;
-    margin-top: -20px;
-    min-width: 180px;
-    max-width: 100%;
+body{
+    background-image: url(imagens/Pastor\ sorrindo.jpg);
     background-position: center top;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-footer{
-    background-color: #04BFBF;
+div.nome{
+    background-size: left top;
+    max-width: 360px;
+    margin-top: -15px;
 }
 
-nav{
-    font-size: 1.5em;
-    line-height: 1em;
-    border: 10px;
-    margin-top: 0px;
-    max-width: 800px;
-    min-width: 180px;
-}       
-
-a>h1{
-    background-color: var(--cor6);
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 0px;
+div.logo{
+    text-align: end;
+    max-width: 600px;
 }
 
-h1{
-    font-family: var(--fonte-morpheus);
-    padding-left: 20px;
-    color: var(--cor5);
-    font-size: 1.8em;
-    width: 200px;
-    height: 40px;
-    line-height: 35px;
+a{
+    text-decoration: none;
+    color:var(--cor5);
+    margin: 5px;
+    transition-duration: 0.5s;
+}
+
+.logo>a:hover{
+    background-color:rgba(255, 255, 255, 0.562);
+    padding: 5px;
+    border: 2px;
+    border-color: var(--cor6);
+    border-radius: 5px;
 }
 
 h2{
-    color: var(--cor6);
-    margin-top: 200px;
-    margin-left: 40px;
+    color: var(--cor5);
+    margin-top: 150px;
+    margin-left: 30px;
     width: 250px;
     height: 150px;;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     max-width: 180px;
     margin-right: 10px;
 }
 
-button{
-    margin-left: 40px;
-    margin-top: 100px;
-    padding: 5px;
-    width: 180px;
-    font-size: 1em;
+button.cultos{
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 3px;
+    width: 160px;
+    font-size: 0.8em;
+    font-weight: bold;
     color: var(--cor5);
-    background-color: #024873;
+    background-color:#03658C;
+}
+
+main{
+    background-color: var(--cor5);
+    margin-left: -7px;
+    margin-right: -8px;
+    max-width: 100vh;
 }
 
 p{
@@ -99,25 +96,6 @@ p.nom{
     font-size: 1.3em;
 }
 
-a{
-    text-decoration: none;
-    padding: 2px;
-    margin-left: 10px;
-    color: var(--cor5);
-    font-weight: bold;
-    transition-duration: 0.5s;
-    min-width: 280px;
-    max-width: 800px;
-}
-
-a>img{
-    margin-top: 15px;
-}
-
-nav > a:hover{
-    background-color: var(--cor6);
-}
-
 div.texto{
     background-color: var(--cor5);
     text-align: center;
@@ -125,66 +103,79 @@ div.texto{
 }
 
 main > h3{
+    padding-top: 30px;
+    text-align: center;
     font-size: 1.7em;
-    color: #024873;
+    color:#024873;
 }
 
 main > p{
-    font-size: 2em;
+    font-size: 1.6em;
+    text-align: center;
     font-weight: bolder;
+    margin-top: -30px;
 }
 
 div.quadrado{
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    width: 350px;
-    height: 350px;
-    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-left: 20vh;
+}
+
+button.quadrado{
+    margin-top: 0px;
+    margin-left: 35vh;
     margin-bottom: 40px;
-    margin-left: 50px;
-    min-width: 180px;
-    background-position: center center;
+    background-color: #03658C;
+    color: var(--cor5);
+
+}
+
+button.quadrado2{
+    margin-top: 0px;
+    margin-left: 30vh;
+    margin-bottom: 40px;
+    background-color: #03658C;
+    color: var(--cor5);
+
 }
 
 div.quadrado#Q1{
     background-image: url(imagens/biblia.jpg);
+    background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 350px 350px;
-    min-width: 180px;
-    background-position: center center;
 }
 
 div.quadrado#Q2{
     background-image: url(imagens/voluntário-de-tecnologia-da-igreja.jpg);
+    background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 350px 350px;
-    min-width: 180px;
-    background-position: center center;
 }
 
 div.quadrado#Q3{
     background-image: url(imagens/oração.jpg);
     background-repeat: no-repeat;
-    background-size: 350PX 350PX;
-    min-width: 180px;
     background-position: center center;
 }
 
 div.quadrado#Q4{
     background-image: url(imagens/louvor.jpg);
+    background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 350PX 350PX;
-    min-width: 180px;
-    background-position: center center;
 }
 
 div.quadrado#Q5{
     background-image: url(imagens/membros.jpg);
+    background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 350px 350px;
-    min-width: 180px;
-    background-position: center center;
 }
 
 div#Q5 > a{
@@ -194,10 +185,9 @@ div#Q5 > a{
 
 div.quadrado#Q6{
     background-image: url(imagens/manutenção.jpg);
+    background-position: center top;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 350px 350px;
-    min-width: 180px;
-    background-position: center center;
 }
 div#Q6 > a{
     color: var(--cor6);
