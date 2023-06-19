@@ -23,45 +23,94 @@
 }
 
 body{
-    background-image: url(imagens/Pastor\ sorrindo572.jpg);
-    background-position: center top;
-    background-size: cover;
+    background-image: url(imagens/Pastor\ sorrindo320.jpg);
+    background-position: left top;
+    background-size: 95vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-right: -25px;
+    margin-left: -10px;
+    margin-bottom: 0px;
 }
 
-h1.titu{
-    background-color:gold;
-    max-width: 120px;
-    font-size: 1.5em;
-    color:var(--cor6);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-left: 30px;
+main{
+    background-color: var(--cor5);
+    max-width: 100vh;
 }
 
-h1.titu2{
-    color: var(--cor5);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin-top: -20px;
+.nave{
+    margin-left: 130px;
+    width: 345px;
 }
 
 button{
     background-color: #03658C;
     color: var(--cor5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+img{
+    margin-top: -40px;
+    margin-left: -10px;
+}
+
+h2.minis{
+    background-color: var(--cor3);
+    color: var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 140px;
+    font-size: 1.8rem;
+    max-width: 180px;
+    margin-right: 10px;
+}
+
+h2{
+    color: var(--cor5);
+    max-width: 230px;
+    margin-left: 20px;
+    margin-top: -40px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2#sete{
+    background-color: #012340;
+    margin-left: 20px;
+    margin-top: -40px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.igre{
+    background-color: var(--cor6);
+    color: var(--cor5);
+    max-width: 190px;
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.cultos{
+    margin-left: 45px;
+    margin-top: 5px;
+    padding: 3px;
+    width: 180px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color:#03658C;
 }
 
 div.nome{
     background-size: left top;
     max-width: 360px;
     margin-top: -15px;
-}
-
-div.logo{
-    text-align: end;
-    max-width: 600px;
 }
 
 a{
@@ -77,36 +126,6 @@ a{
     border: 2px;
     border-color: var(--cor6);
     border-radius: 5px;
-}
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor5);
-    margin-top: 150px;
-    margin-left: 30px;
-    width: 250px;
-    height: 150px;;
-    font-size: 1.8rem;
-    max-width: 180px;
-    margin-right: 10px;
-}
-
-button.cultos{
-    margin-left: 30px;
-    margin-top: 5px;
-    padding: 3px;
-    width: 160px;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: var(--cor5);
-    background-color:#03658C;
-}
-
-main{
-    background-color: var(--cor5);
-    margin-left: -7px;
-    margin-right: -8px;
-    max-width: 100vh;
 }
 
 p{
