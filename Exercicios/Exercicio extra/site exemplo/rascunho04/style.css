@@ -23,11 +23,34 @@
 }
 
 body{
-    background-image: url(imagens/Pastor\ sorrindo.jpg);
+    background-image: url(imagens/Pastor\ sorrindo572.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+h1.titu{
+    background-color:gold;
+    max-width: 120px;
+    font-size: 1.5em;
+    color:var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 30px;
+}
+
+h1.titu2{
+    color: var(--cor5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-top: -20px;
+}
+
+button{
+    background-color: #03658C;
+    color: var(--cor5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div.nome{
@@ -57,6 +80,7 @@ a{
 }
 
 h2{
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--cor5);
     margin-top: 150px;
     margin-left: 30px;
@@ -103,6 +127,7 @@ div.texto{
 }
 
 main > h3{
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 30px;
     text-align: center;
     font-size: 1.7em;
