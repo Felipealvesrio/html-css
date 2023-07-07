@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -21,9 +22,23 @@
             background-color: rgba(128, 128, 128, 0.521);
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: blue;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd){ /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /* 2n */
+            background-color: lightgrey;
         }
 
         thead {
@@ -101,13 +116,179 @@
                 <td>Campinas</td>
                 <td class="numero">3 304 338</td>
             </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3 127 511</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="numero">2 756 700</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="numero">2 209 558</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="numero">1 581 016</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="numero">1 511 459</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="numero">830 026</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="numero">733 508</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">636 303</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">3 941 175</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">3 974 495</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7 055 228</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 116 132</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3 269 200</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de Habitantes</th>
-                <td class="numero"><strong>112.606.738</strong></td>
+                <td class="numero"><strong>184.583.645</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Aut delectus architecto culpa. Nesciunt animi, maiores sed id mollitia expedita laboriosam nemo, 
+        tempore molestiae excepturi saepe voluptas cum, culpa dolore eaque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi atque, maxime unde, dolorem odio fugit dicta ullam ad accusamus enim nobis omnis sit quo consequuntur, 
+        laudantium labore laboriosam. Fugit, similique.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, sequi rerum! Ab culpa facere rem repellat magni illum voluptates, perferendis doloremque porro, 
+        pariatur eligendi esse ratione ex, natus ducimus exercitationem.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Explicabo odio minima earum possimus in error, repellat consectetur amet excepturi esse neque ipsum nostrum, 
+        totam voluptatem pariatur eos ullam. Repellat, molestiae.
+    </p>
 </body>
 </html>
