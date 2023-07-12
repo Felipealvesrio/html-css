@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome{
+            background-color: darkturquoise;
+        }
+
+        col.cgrupo{
+            background-color: yellowgreen;
+        }
+
+        col.cprof{
+            background-color: rgba(255, 255, 0, 0.795);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+    <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>25</td>
+                <td>F</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Lauane</td>
+                <td>23</td>
+                <td>F</td>
+                <td>Bombeira</td>
+            </tr>
+            <tr>
+                <td>Carol</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Costureira</td>
+            </tr>
+            <tr>
+                <td>Milena</td>
+                <td>23</td>
+                <td>F</td>
+                <td>Recepicionista</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>25</td>
+                <td>M</td>
+                <td>recepicionista</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>30</td>
+                <td>M</td>
+                <td>Motorista</td>
+            </tr>
+
+
+    </table>
+</body>
+</html>
